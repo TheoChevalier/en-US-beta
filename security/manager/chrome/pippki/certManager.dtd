@@ -57,7 +57,6 @@
 <!ENTITY certmgr.detail.prettyprint_tab.title "Details">
 <!ENTITY certmgr.detail.prettyprint_tab.accesskey "D">
 
-<!ENTITY certmgr.pending.label                "Currently verifying certificate...">
 <!ENTITY certmgr.subjectinfo.label            "Issued To">
 <!ENTITY certmgr.issuerinfo.label             "Issued By">
 <!ENTITY certmgr.validity.label               "Validity" >
@@ -99,6 +98,7 @@
 <!ENTITY certmgr.expires                      "Expires On">
 <!ENTITY certmgr.email                        "E-Mail Address">
 <!ENTITY certmgr.serial                       "Serial Number">
+<!ENTITY certmgr.ocsp_info                    "Certificates have not been validated with OCSP. Click View to do so.">
 
 <!ENTITY certmgr.close.label                  "Close">
 <!ENTITY certmgr.close.accesskey              "C">
