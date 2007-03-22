@@ -1,3 +1,4 @@
+<!--
 # ***** BEGIN LICENSE BLOCK *****
 # Version: MPL 1.1/GPL 2.0/LGPL 2.1
 #
@@ -14,13 +15,11 @@
 # The Original Code is mozilla.org code.
 #
 # The Initial Developer of the Original Code is
-# International Business Machines Corporation.
-# Portions created by the Initial Developer are Copyright (C) 2000
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 2003
 # the Initial Developer. All Rights Reserved.
 #
 # Contributor(s):
-#   Daniel Brooks <db48x@yahoo.com>
-#   Mike Kowalski <mikejk@ameritech.net>
 #
 # Alternatively, the contents of this file may be used under the terms of
 # either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -35,52 +34,22 @@
 # the terms of any one of the MPL, the GPL or the LGPL.
 #
 # ***** END LICENSE BLOCK *****
+-->
 
-pageInfo.title=Page Info
-frameInfo.title=Frame Info
- 
-noPageTitle=Untitled Page:
-pageTitle=%S:
-unknown=Unknown
-default=Default
-notset=Not specified
-emptystring=Empty String
+<!ENTITY     div.cookiesonsystem.label      "View and remove cookies that are stored on your computer.">
+<!ENTITY     treehead.cookiename.label      "Cookie Name">
+<!ENTITY     treehead.cookiedomain.label    "Site"> 
+<!ENTITY     treehead.infoselected.label    "Information about the selected Cookie">
+<!ENTITY     button.removecookie.label      "Remove Cookie">
+<!ENTITY     button.removeallcookies.label  "Remove All Cookies">
 
-generalNotCached=Not cached
-generalNoExpiration=No expiration set
-generalQuirksMode=Quirks mode
-generalStrictMode=Standards compliance mode
-generalNoReferrer=no referrer
+<!ENTITY     props.name.label               "Name:">
+<!ENTITY     props.value.label              "Content:">
+<!ENTITY     props.domain.label             "Host:">
+<!ENTITY     props.path.label               "Path:">
+<!ENTITY     props.secure.label             "Send For:">
+<!ENTITY     props.expires.label            "Expires:">
 
-formTitle=Form %S:
-formUntitled=Unnamed Form:
-formDefaultTarget=None (opens in same window)
-formChecked=Checked
-formUnchecked=Unchecked
-formPassword=********
+<!ENTITY     window.title                   "Stored Cookies">
 
-linkAnchor=Anchor
-linkArea=Area
-linkSubmission=Form Submission
-linkSubmit=Submit Query
-linkRel=Related Item
-linkStylesheet=Stylesheet
-linkRev=Reverse Link
-linkX=Simple XLink
-linkQuote=Quote
-linkMod=Modification
-
-mediaImg=Image
-mediaBGImg=Background
-mediaApplet=Applet
-mediaObject=Object
-mediaEmbed=Embed
-mediaLink=Icon
-mediaInput=Input
-mediaSize=%Spx \u00D7 %Spx
-
-generalDiskCache=Disk cache
-generalMemoryCache=Memory cache
-generalHTTPCache=HTTP cache
-generalFTPCache=FTP cache
-generalSize=%S KB (%S bytes)
+<!ENTITY     checkbox.label                 "Don't allow sites that set removed cookies to set future cookies">
